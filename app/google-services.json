@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "766020899293",
+    "firebase_url": "https://locof-868ad.firebaseio.com",
+    "project_id": "locof-868ad",
+    "storage_bucket": "locof-868ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766020899293:android:27e1d6e2f7d6db345c2634",
+        "android_client_info": {
+          "package_name": "com.example.locof"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766020899293-2dklfuqpept2k3qkplljvl1h8656l8cs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.locof",
+            "certificate_hash": "3e13605ad8bfcfd06e803ebd527925ab3965b5c5"
+          }
+        },
+        {
+          "client_id": "766020899293-r2v29vo35gpqelabiqfj5ngf69lgglv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr9e1--EbFSzrFgAoWiU5lPp0I0FVlg74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766020899293-r2v29vo35gpqelabiqfj5ngf69lgglv4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

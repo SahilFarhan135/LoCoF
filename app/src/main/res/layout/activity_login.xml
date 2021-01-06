@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient1"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="322dp"
+        android:layout_height="203dp"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.094"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="locof.json"
+        app:lottie_loop="true">
+
+    </com.airbnb.lottie.LottieAnimationView>
+
+    <TextView
+        android:id="@+id/notice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="284dp"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textColor="@color/blacka2"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardMylocation"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/blacka2"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="12dp"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/blacka2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793">
+
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:text="Be A LoCoFer"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="24sp">
+
+            </TextView>
+
+
+            <EditText
+                android:id="@+id/EdUniqueId"
+                android:layout_width="260dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="8dp"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="@android:color/white"
+                android:hint="Unique Id"
+                android:textColor="@color/blacka2"
+                android:textColorHint="@color/blacka2">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/EdUniqueName"
+                android:layout_width="260dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/roundbutton"
+                android:textColor="@color/blacka2"
+                android:paddingLeft="8dp"
+                android:backgroundTint="@android:color/white"
+                android:hint="Your Name"
+                android:textColorHint="@color/blacka2">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/btFBaseFmaily"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#FFD600"
+                android:padding="5dp"
+                android:text=" Get Family"
+                android:textColor="#030303">
+
+            </Button>
+
+            <TextView
+                android:id="@+id/SignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Not A LoCoFeR !    Sign up"
+                android:textAlignment="center"
+                android:layout_marginBottom="10sp"
+                android:textColor="@android:color/white"
+                android:textSize="20sp">
+
+            </TextView>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LocateFamily">
+
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:textSize="12dp"
+    android:textAlignment="center"
+    android:id="@+id/tvNotice"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"/>
+
+    <ListView
+        android:id="@+id/Familylist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blacka2"
+        android:scrollbars="vertical"/>
+
+
+</LinearLayout>

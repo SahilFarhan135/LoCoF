@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="teal">#aaffa9</color>
+    <color name="love">#11ffbd</color>
+    <color name="blody">#ff512f</color>
+    <color name="mary">#dd2476</color>
+    <color name="dis">#4ecdc4</color>
+    <color name="ko">#556270</color>
+    <color name="sweat">#ff5f6d</color>
+    <color name="morning">#ffc371</color>
+    <color name="mar">#fdfc47</color>
+    <color name="tini">#24fe41</color>
+    <color name="steel">#1f1c2c</color>
+    <color name="gray">#928dab</color>
+    <color name="anam">#fbc7d4</color>
+    <color name="nisar">#9796f0</color>
+    <color name="ver">#f7f8f8</color>
+    <color name="black">#acbb78</color>
+    <color name="piggy">#ee9ca7</color>
+    <color name="pink">#ffdde1</color>
+    <color name="blacka1">#2c3e50</color>
+    <color name="blacka2"> #000000</color>
+    <color name="blacka3"> #2D3436</color>
+    <color name="Red">#E40804</color>
+    <color name="Green">#18FF95</color>
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    android:orientation="vertical"
+    tools:context=".CurentLocation">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="60dp"
+        android:textSize="30dp"
+        android:textColor="@color/blacka2"
+        android:background="@drawable/roundbutton"
+        android:text="My Location "
+        android:textAlignment="center"
+        android:paddingLeft="10sp"
+        android:layout_marginTop="20dp">
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/tvLat"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:textSize="30dp"
+        android:textColor="@color/blacka2"
+        android:background="@drawable/roundbutton"
+        android:hint="Latitude"
+        android:paddingLeft="10sp"
+        android:layout_marginTop="24dp">
+    </TextView>
+    <TextView
+        android:id="@+id/tvLong"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:textSize="30dp"
+        android:textColor="@color/blacka2"
+        android:background="@drawable/roundbutton"
+        android:hint="Longitude"
+        android:paddingLeft="10sp"
+        android:layout_marginTop="13dp">
+    </TextView>
+    <TextView
+        android:id="@+id/tvCountry"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:textSize="30dp"
+        android:textColor="@color/blacka2"
+        android:hint="Country"
+        android:background="@drawable/roundbutton"
+        android:paddingLeft="10sp"
+        android:layout_marginTop="10dp">
+    </TextView>
+    <TextView
+        android:id="@+id/tvLocality"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:background="@drawable/roundbutton"
+        android:textSize="30dp"
+        android:textColor="@color/blacka2"
+        android:hint="Locality"
+        android:paddingLeft="10sp"
+        android:layout_marginTop="13dp">
+    </TextView>
+    <TextView
+        android:id="@+id/tvRoadLine"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:background="@drawable/roundbutton"
+        android:textColor="@color/blacka2"
+        android:hint="RoadLine"
+        android:paddingLeft="10sp"
+        android:layout_marginTop="13dp">
+    </TextView>
+    <TextView
+        android:id="@+id/tvSubLocality"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:background="@drawable/roundbutton"
+        android:textColor="@color/blacka2"
+        android:hint="SubLocality"
+        android:paddingLeft="10sp"
+        android:layout_marginTop="13dp">
+    </TextView>
+    <TextView
+        android:id="@+id/tvPostalCode"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:textSize="30dp"
+        android:background="@drawable/roundbutton"
+        android:textColor="@color/blacka2"
+        android:hint="PostalCode"
+        android:paddingLeft="10sp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="13dp">
+
+    </TextView>
+            <Button
+                android:id="@+id/btcurrentMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="@color/blacka2"
+                android:text="View Map"
+                android:textColor="@color/mar"
+                android:padding="2dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp">
+
+            </Button>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
